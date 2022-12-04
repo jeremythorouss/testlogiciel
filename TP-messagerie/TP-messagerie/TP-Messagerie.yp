@@ -279,6 +279,22 @@
             <value xsi:type="yest:StringCell" value="verifier que le format n'est pas interdit: .exe"/>
           </cells>
         </decisions>
+        <decisions id="Yp6ZaZIuwxHlmEggLniDzMQLi45eZszr">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="g2pvM4AXpzz8peZZD5BvawAaZDmSIPH4"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier que la taille est acceptable"/>
+          </cells>
+        </decisions>
       </table>
     </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="LIDdJPj9sMvIihWzGugC1XJMO2no4lzj" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
@@ -338,6 +354,28 @@
           </cells>
           <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
             <value xsi:type="yest:OutcomeCell" outcome="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+          </cells>
+        </decisions>
+        <decisions id="x22ilN9INyZBiK32v9A7ouOQOAmkSfLn">
+          <cells key="fQgazgGACDA4rwVagqz2kFHAzSQND4Gs">
+            <value xsi:type="yest:DataValueCell" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+          </cells>
+          <cells key="E51OUxbxY8q0VB3LLqRio2eW5ADkMKhf">
+            <value xsi:type="yest:DataValueCell" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+          </cells>
+          <cells key="9YUlnvIjCXTp7ZwJ25x5dDTcVDA6WU1d">
+            <value xsi:type="yest:DataValueCell" value="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot"/>
+          </cells>
+          <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
+            <value xsi:type="yest:OutcomeCell" outcome="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+          </cells>
+          <cells key="5qJjS1hXBLpWPCTBVuDc4Tg9NrrMipmz">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX"/>
+            </value>
+          </cells>
+          <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
+            <value xsi:type="yest:StringCell" value="fichier trop volumineux"/>
           </cells>
         </decisions>
       </table>
@@ -413,7 +451,7 @@
         </children>
       </children>
       <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.10/@children.0/@graphicsAlgorithm" flowNode="Up3WO7IBNU2dvHD4poefpKrYf0nT5La5">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="135" height="62" x="510" y="353" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="135" height="62" x="520" y="352" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="Up3WO7IBNU2dvHD4poefpKrYf0nT5La5"/>
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.9" incomingConnections="//@testElements.0/@diagram/@connections.8"/>
         <children xsi:type="pi:ContainerShape" visible="true">
@@ -1126,6 +1164,31 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
+  <testElements xsi:type="yest:TestOperation" id="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Ajouter "/>
+        <stepElements xsi:type="yest:StepField" id="wRL8kOcdgS67LgoheSgkbG5hmrHzYUua" data="dPZVkT4Fb6VJA5m2B1bHITbQVSVAKHSd"/>
+        <stepElements xsi:type="yest:StepText" content="Pj de taille totale "/>
+        <stepElements xsi:type="yest:StepField" id="Nx8r6ILLrkXNqCcOQqXsSJOHaAiqvPWp" data="41gNJ1f1xL5rUBw4FnL28JHKH5OZAQgH"/>
+        <stepElements xsi:type="yest:StepText" content=" et de format "/>
+        <stepElements xsi:type="yest:StepField" id="aTlmY1loLPvjfArj5RC0aDvXwB3cs83A" data="EXcPBFQCWkhQjFlHVzvSBGrx0b2T2oFx"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="on peut insérer un PJ de format mais pas de taille 52mo"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="g2pvM4AXpzz8peZZD5BvawAaZDmSIPH4">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Vérifier la taille de la PJ"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="si la taille est 52mo"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="1omGsRuzkZQucTkxV6LQpZkCp71n5HKf" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="PJ" id="99eb551a21e550a69098da63d6869151"/>
     <datas xsi:type="yest:DesignData" name="Destinataire" id="fe3a0ad57bd6984634df92ee4503f619">
@@ -1190,6 +1253,11 @@
           <operand xsi:type="yest:TextLiteral" value="0"/>
         </definition>
       </values>
+      <values id="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="52"/>
+        </definition>
+      </values>
     </datas>
     <datas xsi:type="yest:DesignData" name="format_PJ" id="EXcPBFQCWkhQjFlHVzvSBGrx0b2T2oFx">
       <values id="IrvcALw3TXlX5QezSy25k90pzdqmCYrc">
@@ -1200,6 +1268,11 @@
       <values id="jWeILQSzzvqOTpS5xzmvcRc4AyFrTt18">
         <definition>
           <operand xsi:type="yest:TextLiteral" value="aucun"/>
+        </definition>
+      </values>
+      <values id="hhorSub70ccRNvpvCE6pmYinl3mFGbDj">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value=".doc"/>
         </definition>
       </values>
     </datas>
