@@ -384,10 +384,48 @@
             </value>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
-            <value xsi:type="yest:StringCell" value="on peut supprimer les pièces jointes"/>
+            <value xsi:type="yest:StringCell" value="on peut supprimer les pièces jointes et le corps du message"/>
           </cells>
           <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
             <value xsi:type="yest:DataValueCell" value="F27Mdbq9PqG5kphYhXlNCqXI9IDUrIba"/>
+          </cells>
+        </decisions>
+        <decisions id="rOr6dHWGAz6p9kZR2j4MiH5frtdfJElF">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell" value="OyOfU6UlhzvIWb5Rj0apNztM3zCHosmm"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="JERv3Jehiid5COcoDQvFhWH0cZW8TJkO"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier que la taille d'affichage est acceptable"/>
+          </cells>
+        </decisions>
+        <decisions id="W3Nf6MqvIDEEzcXQyvCvngVfE7p2vzaz">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell" value="JLbCVa4kjeYiWX1DsNh1UKZEwZAY5eLa"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="vQlaEpwV91uCW49VO31HBAzZT37DaQmU"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="verifier que le format n'est pas autorisé: mp4"/>
           </cells>
         </decisions>
       </table>
@@ -581,6 +619,106 @@
           </cells>
           <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
             <value xsi:type="yest:StringCell" value="suppression des fichiers"/>
+          </cells>
+        </decisions>
+        <decisions id="DiPxeTSEpprCqnyHmsawwTRYBTmlPtoP">
+          <cells key="fQgazgGACDA4rwVagqz2kFHAzSQND4Gs">
+            <value xsi:type="yest:DataValueCell" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+          </cells>
+          <cells key="E51OUxbxY8q0VB3LLqRio2eW5ADkMKhf">
+            <value xsi:type="yest:DataValueCell" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+          </cells>
+          <cells key="9YUlnvIjCXTp7ZwJ25x5dDTcVDA6WU1d">
+            <value xsi:type="yest:DataValueCell" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+          </cells>
+          <cells key="QCsqipxry4zz3wMaNqGqin9rx8jhTkFT">
+            <value xsi:type="yest:DataValueCell" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+          </cells>
+          <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
+            <value xsi:type="yest:OutcomeCell" notCompleted="true"/>
+          </cells>
+          <cells key="5qJjS1hXBLpWPCTBVuDc4Tg9NrrMipmz">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+            </value>
+          </cells>
+          <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
+            <value xsi:type="yest:StringCell" value="vérifier l'emplacement du bouton ajouter une puèce jointe"/>
+          </cells>
+        </decisions>
+        <decisions id="ueP8w7ITUdeeSzVBW8nifsjQUjLQR1D5">
+          <cells key="fQgazgGACDA4rwVagqz2kFHAzSQND4Gs">
+            <value xsi:type="yest:DataValueCell" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+          </cells>
+          <cells key="E51OUxbxY8q0VB3LLqRio2eW5ADkMKhf">
+            <value xsi:type="yest:DataValueCell" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+          </cells>
+          <cells key="9YUlnvIjCXTp7ZwJ25x5dDTcVDA6WU1d">
+            <value xsi:type="yest:DataValueCell" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+          </cells>
+          <cells key="QCsqipxry4zz3wMaNqGqin9rx8jhTkFT">
+            <value xsi:type="yest:DataValueCell" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+          </cells>
+          <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
+            <value xsi:type="yest:OutcomeCell" notCompleted="true"/>
+          </cells>
+          <cells key="5qJjS1hXBLpWPCTBVuDc4Tg9NrrMipmz">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="O72d7d4JI4w2ETKrIht1INUXu0cNtASk"/>
+            </value>
+          </cells>
+          <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
+            <value xsi:type="yest:StringCell" value="vérifier l'emplacement du bouton ajouter une puèce jointe"/>
+          </cells>
+        </decisions>
+        <decisions id="T0cmth0X0SK6mIQ1VvF8FT0gecg3V6MI">
+          <cells key="fQgazgGACDA4rwVagqz2kFHAzSQND4Gs">
+            <value xsi:type="yest:DataValueCell" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+          </cells>
+          <cells key="E51OUxbxY8q0VB3LLqRio2eW5ADkMKhf">
+            <value xsi:type="yest:DataValueCell" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
+          </cells>
+          <cells key="9YUlnvIjCXTp7ZwJ25x5dDTcVDA6WU1d">
+            <value xsi:type="yest:DataValueCell" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+          </cells>
+          <cells key="QCsqipxry4zz3wMaNqGqin9rx8jhTkFT">
+            <value xsi:type="yest:DataValueCell" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+          </cells>
+          <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
+            <value xsi:type="yest:OutcomeCell" outcome="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+          </cells>
+          <cells key="5qJjS1hXBLpWPCTBVuDc4Tg9NrrMipmz">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="uNv94N0O8c7YROFCcWw0MPid6rOTQmkd"/>
+            </value>
+          </cells>
+          <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+        </decisions>
+        <decisions id="V7zyumpHoUO2cmvSitrs3jSQMwFU0Ntl">
+          <cells key="fQgazgGACDA4rwVagqz2kFHAzSQND4Gs">
+            <value xsi:type="yest:DataValueCell" value="F4lcMr7yXQxNorwtyC0wbO7QznT4M2LR"/>
+          </cells>
+          <cells key="E51OUxbxY8q0VB3LLqRio2eW5ADkMKhf">
+            <value xsi:type="yest:DataValueCell" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+          </cells>
+          <cells key="9YUlnvIjCXTp7ZwJ25x5dDTcVDA6WU1d">
+            <value xsi:type="yest:DataValueCell" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+          </cells>
+          <cells key="QCsqipxry4zz3wMaNqGqin9rx8jhTkFT">
+            <value xsi:type="yest:DataValueCell" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+          </cells>
+          <cells key="kR0P8CeMBUYPMSdITsCJsYM11YSFG2VF">
+            <value xsi:type="yest:OutcomeCell" outcome="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+          </cells>
+          <cells key="5qJjS1hXBLpWPCTBVuDc4Tg9NrrMipmz">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="y05638aiks5z5ht1J6HW99T2D6DUJxqg"/>
+            </value>
+          </cells>
+          <cells key="MzCGMkkctNbIGzpIa6nfuPC9Z7RG7Yr1">
+            <value xsi:type="yest:StringCell" value=""/>
           </cells>
         </decisions>
       </table>
@@ -1432,7 +1570,219 @@
         <stepElements xsi:type="yest:StepText" content="3 fichiers insérer, on en supprime un"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="on supprime tous les fichiers"/>
+        <stepElements xsi:type="yest:StepText" content="on supprime tous les fichiers et le corps du message"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="AOyteO390QtZFga2LfZcaQA6kg3e5bze">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="on clique sur le bouton &quot;ajouter pièce jointe&quot;"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="le bouton est situé en haut à droite"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="Tv69A6V3WhzltkFw8wTKvWCDTNesaHTW" name="Ami-envoi PJ-vérifier que le message puisse partir sans pièce jointe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="5OhWnRVoussrvg7yQkFmsqAlZq7wbhPI" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="sOx1wiO7I4B0h2LMTtMsedGv2nYvpcDb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="zWHzfBVfXgrJqLSe3N4NhI9eWkImcHJm" operation="3jC7it0NDur60QaUJD40rDlGfrmeB4vO"/>
+    <testActions id="MYmYlE9ivoxV6nzJ3tx8NLmZPA5aQTnY" operation="fZaJcarDVWBEwyX56vISzkfSeX9IzQ4b"/>
+    <testActions id="POekOy7L4O1akiDK10KbODeP9BFs1x6i" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="QaW0SJVLC6SJDnZ54vTgyspBSxqGWTUC" name="Nouvelle conversation-envoi PJ-format interdit-vérifier la taille du titer de la pièce jointe-Echec envoi-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="xszsyTOOsTDVGja5y7QOfBhZes6nUsGC" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="YrVJDDAdyPl17D4AW3oLZIoRya4es58L" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="IHAte76az6Luh7ucGiXXmhpPSHS2KOpd" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="r1e66FurXxW5NhMga6SF5amhRfTXzLcN" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="IrvcALw3TXlX5QezSy25k90pzdqmCYrc"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="edu5OYlM7f4QiHhrVc9wWaYEs2HGCD3h" operation="fDRdEvRRDWmMJxQH31qUONvqe7kSiUw4"/>
+    <testActions id="VXX8gGHGcuaLRtnhLqHXziPi19FdKSOr" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="GH2qufQ1uLNZk7zVrWLd4SK7OrSN8uuL" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="P5Lqctdbmkcf2i5SaMbxnItunxoPPWV7" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="UXLrg9VvVxrnjXYcf03aTHZTNkbf3vN9" name="Ami-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-format interdit-verifier que le format n'est pas interdit: .exe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="2ENG533RBE3ozBp1rwZAArSrzVozJJZJ" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="lnIAYtEjj3AeUxFHhOI78g8myBUvLTie" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="pMJPZXblSloZlmkRdBBbbGmohrzK5gHk" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="QwX3x1uT7imqVd7Wjj3LWKCqLvyJiuUv" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="2wyNRucJB9W14eJkig0Zy6A0AIdzyylF"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="CMUE4PeHhw3Xh3E0A8o0K2RqnPy11sr2" operation="wm3o8WZNCFroA3umLHhtpyRh0yvxDvTp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="P6xw9iePPd4jgD9o6bA3IV3Jvpg0j0ue" name="Groupe-envoi PJ-fichier trop volumineux-verifier que le format n'est pas interdit: .jar" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="S3dxCKHV7x4TeT8kPgt8lld7rrN9m6lO" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="mRL1YO1Om6ckQbEm89tlYuusWLitGtam" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="gHyeqbhSdVdKzZBzPNM4Du7pHqjW3jpC" operation="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX">
+      <stepFieldValues referencedStepField="inJnPUvopFxDUKpn39Ouqc82p2nReK2V" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="7kfdNFg7FdS55JdaYmW5G1ZBzHZfpgoB" value="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot"/>
+      <stepFieldValues referencedStepField="Z45cgJNvygKed0l0DraSVBXdZ0yIq54x" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="3ardK9gWSXiPAeQJc3XvTRseU6TrXcKy" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="3GZunZe4tgIAyFH9sY7X6wW3yY2Z2mcm" operation="EeOTn5FwMwIy6DuVt8iSgQwJ8jB4c84H"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="RWtwfemcBc5rw5EJBL8XTURinhZHzSS4" name="Nouvelle conversation-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-trop de fichiers-vérifier que la taille est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="CF2EEI2ppg5FZdPEYOP9fUk1eMQeX0iz" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="9xI2pzzHhv11G2STKekEREegCErAKYqv" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="LPPC7oHkbMCWkbi35VIWtn2vWy9iBHve" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="82E1ycZ0rO0kNtJzph3IQGHUbqxv872J" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="YUmiDfPSiiqUMqeu73y2vhNIEg6Vqj1K" operation="aFeCFBiuvKsoKuPWgn0O7XwjrQDsUsUA">
+      <stepFieldValues referencedStepField="LPTC9Eqgj56Sox0R2qExBVjEzhwdGtPL" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
+      <stepFieldValues referencedStepField="WLXWwpChugAN6RZaECqFAoHkVKcp3PjJ" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="ZFpYMwaZORGxlGxNZsJFzEYEO7NrBdWG" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="beoXswa9XHrhaleI23YI2kYHea21KRlp" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="sBqWJsogL82mFSj4ddcUrclo6BXWDGJK" operation="g2pvM4AXpzz8peZZD5BvawAaZDmSIPH4"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="wHBchFF25mywRPzNJcs24u6vlAa9R0OH" name="Groupe-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-voir le titre du fichier-verifier que le nombre de pièe jointe est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="yMxXrfa4YFabXzHgK8yNfNFpHYPtwb1Q" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="BijhtcrV32UnGC7b9uay1naigQoeEw88" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="RwmrgXQyXWhW6tuFKS2GLB1zKX4OY6I4" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="mJyN0fiOJZdRaIOHB7oBfHXAa3g6L9NX" operation="L56S0LyVcK5SXEMje98MKethcnwPVW6S">
+      <stepFieldValues referencedStepField="mr16bEH8mPebyx3NNIkx2sB60Qjk6TiL" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="bpO8zRsAMVL5IBh99vt5U9meL2WxD2Ql" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="spaWmmWcHl4djD2uZqs0mdw8uHdTyE5i" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="CL0WxCrLJZL3CJcoIfyxFuecVIHgzK3p" value="z1pZK8dPOjAHOzY8suebe9gQtvrHg2FG"/>
+    </testActions>
+    <testActions id="axC9OUw1Ef41jxBoujllEfAHDtP0onU3" operation="ZbIxbuAs35m8qhJPu5tDsHJC5lCRBgSZ"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="gUumhLu4SwbXR4WK4YXWLcKhTPRcEqLo" name="Ami-envoi PJ-suppression des fichiers-on peut supprimer les pièces jointes et le corps du message" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="9e62jq6ZecUkeg3XcQdbBqFpfsbesHbQ" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="A2M5NXlpO6lqkXd52iLF1x0dgWmB6ncT" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="pNoVp5yWbDKqUChvuGyXlG4D3NJDTjJE" operation="YZ8JvPR8wVUIDdbeBD5oNMuGe7dnf172">
+      <stepFieldValues referencedStepField="xPvrW9G4qoBpdzcRYdZEBFwTjRZhkYC5" value="oOmfn37qv8txTVex67g3GtlFloAK5osZ"/>
+      <stepFieldValues referencedStepField="5XDyjRyhTtDvWPvsOSPvM5sJ04ZrlNuM" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="Ci69nPoQYpAEWPflh45QnDMBJ6rXeOPO" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="a2WfuS2WJ6pl6Sbb0qsPexxYsn9yn3kg" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="LGXsl5Bu7ZuwPW9Zq5Hl61HABkR2nuSR" operation="z4n604k5lczIKK7SzJKLgexZT9hFZnNR"/>
+    <testActions id="3wkslQIx3tRdrWwYH2OCkd2tx4VT8JVe" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="kV1M8z3enKzRQKYmtmbISVlsA4r0gHkl" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="X1eTZ5fr69nAP9pHdFvtYf3EpHVLL0Yz" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="zn5dCkM2aCtrRdt3f2UOQ1UwawMqiiUm" name="Groupe-Message vide-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="M0ufOoiATqFreVJVaTrU7EYeAwiJ0Du7" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="QauFZCH78ks2TWfKwtGhQNfdGirbESdB" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="fvuZc2m4wl2bHoqz8i8KnAMT0LQ776lK" operation="8vNRAwmleffPuFVorHzLBCwB0HRhFx5S"/>
+    <testActions id="GtGRLB9YUebyEonYj4MZiSzblRFwXzXF" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="1Z6wMFCLLuNAW0wR1mA40ByDGcAVdrW8" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="kVumn4uXTdmDoX3fViE37Ru9LlXgMsGg" name="Nouvelle conversation" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="FeHV5umP2I8zi8NBIxazh7I5ZThsJn9z" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="YowK1weRImwzP22hCof6rwEKlyt7a8ch" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="cZUkQAk24Giu1buUAcAIadkjweQHBqdg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="qQq9ENsMI8Xwz9yZcGyac6kgj3A4IWOR"/>
+    </testActions>
+    <testActions id="lfnMAse3gtUWmDPfUEIczWpKKkIfOoHF" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="JtnRdAcS9myzDAbNjic2iUgDZ2YMWXcF" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="O72d7d4JI4w2ETKrIht1INUXu0cNtASk">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="on clique sur le bouton &quot;ajouter pièce jointe&quot; et on attend 30 min"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="le bouton est situé en haut à droite"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="uNv94N0O8c7YROFCcWw0MPid6rOTQmkd">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Ajouter "/>
+        <stepElements xsi:type="yest:StepField" id="35bfaSlh9p0dipSwRMFMv9PjPfhdnQb8" data="dPZVkT4Fb6VJA5m2B1bHITbQVSVAKHSd"/>
+        <stepElements xsi:type="yest:StepText" content="Pj de taille totale "/>
+        <stepElements xsi:type="yest:StepField" id="CAffJhk6yZzqOHHE6St3ego17CmBnJxD" data="41gNJ1f1xL5rUBw4FnL28JHKH5OZAQgH"/>
+        <stepElements xsi:type="yest:StepText" content=" et de format "/>
+        <stepElements xsi:type="yest:StepField" id="lciJRJFOIhmBg7sa83gJbvYVWgrJIW4i" data="EXcPBFQCWkhQjFlHVzvSBGrx0b2T2oFx"/>
+        <stepElements xsi:type="yest:StepText" content=" et de nom "/>
+        <stepElements xsi:type="yest:StepField" id="KV3lXVdPmSTwhkVZEAur9SBMKrlNu5KF" data="PdBNfBHuOhrLqe0tK3Xbqvzl7JujichH"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="on peut insérer les 6 piece jointes"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="JERv3Jehiid5COcoDQvFhWH0cZW8TJkO">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Vérifier la taille de la PJ à l'écran"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="doit prendre au maximum 1/3 de l'ecran"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="y05638aiks5z5ht1J6HW99T2D6DUJxqg">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Ajouter "/>
+        <stepElements xsi:type="yest:StepField" id="JzunCRa6ZY0zVlrP9QIW5FEdpibIQb8G" data="dPZVkT4Fb6VJA5m2B1bHITbQVSVAKHSd"/>
+        <stepElements xsi:type="yest:StepText" content="Pj de taille totale "/>
+        <stepElements xsi:type="yest:StepField" id="YIWzKkjO6PzlZrQasMjPqqcZEqYYSeWQ" data="41gNJ1f1xL5rUBw4FnL28JHKH5OZAQgH"/>
+        <stepElements xsi:type="yest:StepText" content=" et de format "/>
+        <stepElements xsi:type="yest:StepField" id="t7RW2hCCpwlAEMbvJsVPMjEF4pof1Cho" data="EXcPBFQCWkhQjFlHVzvSBGrx0b2T2oFx"/>
+        <stepElements xsi:type="yest:StepText" content=" et de nom "/>
+        <stepElements xsi:type="yest:StepField" id="D6Z3r2InAxhSf6PcbAiLbDOFQAYq48ZZ" data="PdBNfBHuOhrLqe0tK3Xbqvzl7JujichH"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="on peut insérer toutes les extensions possibles sauf celles précdéntes"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="vQlaEpwV91uCW49VO31HBAzZT37DaQmU">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="vérifier le format de la pièce jointe"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="si le format est en : .mp4 il part"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
@@ -1466,6 +1816,11 @@
       <values id="F27Mdbq9PqG5kphYhXlNCqXI9IDUrIba">
         <definition>
           <operand xsi:type="yest:TextLiteral" value="toto.doc toto.doc toto.doc"/>
+        </definition>
+      </values>
+      <values id="JLbCVa4kjeYiWX1DsNh1UKZEwZAY5eLa">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="toto.mp4"/>
         </definition>
       </values>
     </datas>
@@ -1561,6 +1916,11 @@
       <values id="2wyNRucJB9W14eJkig0Zy6A0AIdzyylF">
         <definition>
           <operand xsi:type="yest:TextLiteral" value=".jar"/>
+        </definition>
+      </values>
+      <values id="F4lcMr7yXQxNorwtyC0wbO7QznT4M2LR">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value=".mp4"/>
         </definition>
       </values>
     </datas>
