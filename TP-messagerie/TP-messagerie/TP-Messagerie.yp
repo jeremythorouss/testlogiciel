@@ -428,6 +428,139 @@
             <value xsi:type="yest:StringCell" value="verifier que le format n'est pas autorisé: mp4"/>
           </cells>
         </decisions>
+        <decisions id="1mmQn1vJLBKO1o4qfrVsdTgg9GvTF9M4">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell" value="kIthzX8R5UyXizllydpZZOtATiLkaIQC"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="vJExoeAIRqm4Gk8YuQQAbGSh8qI27gQG"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier que le la taille de la pj ne dépasse pas 2mo"/>
+          </cells>
+        </decisions>
+        <decisions id="9MRTOxCpAAPoCmZGcrgQT4QPHZ9kaI9D">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="ZnNb5daTNeG3Ygva8shVfUxHhIPIsOVP"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="Vérifier que la pj est toujours présente aprés la redémarage d'outil"/>
+          </cells>
+        </decisions>
+        <decisions id="iwKjiTzkeMI7mXoRBUpNj9UtjxwbjrvC">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="Ug5NhUGuOA28O7XB7FdsNpCyJpk97z4b"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier si tous les pj sont supprimé aprés la supression d'une Pj"/>
+          </cells>
+        </decisions>
+        <decisions id="VPk95tgURrhNom7TLUJ0rsD8qsnzD898">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="vZS7C45e43BVMSP2PRSxx4BbBcVlmoeO"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="Vérifier si aprés le clique de button pj , une redirection sera faite au navigateur"/>
+          </cells>
+        </decisions>
+        <decisions id="3qe8rYaKZICFRwsqJNr0zyvxAtCqJoUU">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="LyMWIznYaZUxM8kwNRVVYzr8uBOmQokI"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier si aprés une attente de 30min aprés l'ajout de la Pj , est toujours existante"/>
+          </cells>
+        </decisions>
+        <decisions id="PAcrYC3CbmD8WQMg6ZW9WSDmCArs8ZSJ">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell" outcome="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="7cv9Bq0ZJP0G1Vk1421glE2JekeSjUHI"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value="vérifier si le renommage de la pj n'est pas possible"/>
+          </cells>
+        </decisions>
+        <decisions id="uRsKZoB8TnZoMnVQYFOU0Us0ZcOn6D5o">
+          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
+            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+          </cells>
+          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
+            <value xsi:type="yest:DataValueCell"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="yest:OutcomeCell"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="UCjtw1SCoauPPRz08FMeFkBjn1ZdqNz7"/>
+            </value>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+        </decisions>
       </table>
     </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="LIDdJPj9sMvIihWzGugC1XJMO2no4lzj" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
@@ -1786,6 +1919,72 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
+  <testElements xsi:type="yest:TestOperation" id="vJExoeAIRqm4Gk8YuQQAbGSh8qI27gQG">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="vérifier la taille de la pièce jointe"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="si la taille de la pj dépasse 2mo"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="ZnNb5daTNeG3Ygva8shVfUxHhIPIsOVP">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="fermeture et réouvrir d'outil"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Pièce jointe toujours à la barre"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="Ug5NhUGuOA28O7XB7FdsNpCyJpk97z4b">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="1 Pj supprimé ,"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="toutes les autres Pj supprimé"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="vZS7C45e43BVMSP2PRSxx4BbBcVlmoeO">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Clique sur le button pièce jointe"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Direction au navigateur pour chercher et inclure des Pj"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="LyMWIznYaZUxM8kwNRVVYzr8uBOmQokI">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Ajouter une pj au message"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Aprés 30min d'attente , le pj est toujours dans le corp de message"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="7cv9Bq0ZJP0G1Vk1421glE2JekeSjUHI">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="renommer le fichier .exe envoyé"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Message d'erreur : cette action ne peut pas être faite"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="UCjtw1SCoauPPRz08FMeFkBjn1ZdqNz7">
+    <highLevelStep>
+      <action/>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="1omGsRuzkZQucTkxV6LQpZkCp71n5HKf" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="PJ" id="99eb551a21e550a69098da63d6869151">
       <values id="V7WCNT2MKq6G6dlFbebCjmNsGZbG6mP5">
@@ -1821,6 +2020,11 @@
       <values id="JLbCVa4kjeYiWX1DsNh1UKZEwZAY5eLa">
         <definition>
           <operand xsi:type="yest:TextLiteral" value="toto.mp4"/>
+        </definition>
+      </values>
+      <values id="kIthzX8R5UyXizllydpZZOtATiLkaIQC">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="toto.apk"/>
         </definition>
       </values>
     </datas>
