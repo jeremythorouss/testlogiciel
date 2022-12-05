@@ -542,25 +542,6 @@
             <value xsi:type="yest:StringCell" value="vérifier si le renommage de la pj n'est pas possible"/>
           </cells>
         </decisions>
-        <decisions id="uRsKZoB8TnZoMnVQYFOU0Us0ZcOn6D5o">
-          <cells key="7o9WsqxdRYL70JLQqzf9X4NfXfeqz3YU">
-            <value xsi:type="yest:DataValueCell" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-          </cells>
-          <cells key="ihoZtKqLLNgjiRIi9pVuxCP86QI8l2Z9">
-            <value xsi:type="yest:DataValueCell"/>
-          </cells>
-          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="yest:OutcomeCell"/>
-          </cells>
-          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
-            <value xsi:type="yest:OperationCell">
-              <operations reference="UCjtw1SCoauPPRz08FMeFkBjn1ZdqNz7"/>
-            </value>
-          </cells>
-          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
-            <value xsi:type="yest:StringCell" value=""/>
-          </cells>
-        </decisions>
       </table>
     </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="LIDdJPj9sMvIihWzGugC1XJMO2no4lzj" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
@@ -1717,144 +1698,6 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="Tv69A6V3WhzltkFw8wTKvWCDTNesaHTW" name="Ami-envoi PJ-vérifier que le message puisse partir sans pièce jointe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="5OhWnRVoussrvg7yQkFmsqAlZq7wbhPI" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
-      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-    </testActions>
-    <testActions id="sOx1wiO7I4B0h2LMTtMsedGv2nYvpcDb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="zWHzfBVfXgrJqLSe3N4NhI9eWkImcHJm" operation="3jC7it0NDur60QaUJD40rDlGfrmeB4vO"/>
-    <testActions id="MYmYlE9ivoxV6nzJ3tx8NLmZPA5aQTnY" operation="fZaJcarDVWBEwyX56vISzkfSeX9IzQ4b"/>
-    <testActions id="POekOy7L4O1akiDK10KbODeP9BFs1x6i" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="QaW0SJVLC6SJDnZ54vTgyspBSxqGWTUC" name="Nouvelle conversation-envoi PJ-format interdit-vérifier la taille du titer de la pièce jointe-Echec envoi-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="xszsyTOOsTDVGja5y7QOfBhZes6nUsGC" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="YrVJDDAdyPl17D4AW3oLZIoRya4es58L" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
-    <testActions id="IHAte76az6Luh7ucGiXXmhpPSHS2KOpd" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="r1e66FurXxW5NhMga6SF5amhRfTXzLcN" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
-      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
-      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
-      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="IrvcALw3TXlX5QezSy25k90pzdqmCYrc"/>
-      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
-    </testActions>
-    <testActions id="edu5OYlM7f4QiHhrVc9wWaYEs2HGCD3h" operation="fDRdEvRRDWmMJxQH31qUONvqe7kSiUw4"/>
-    <testActions id="VXX8gGHGcuaLRtnhLqHXziPi19FdKSOr" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="GH2qufQ1uLNZk7zVrWLd4SK7OrSN8uuL" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
-    </testActions>
-    <testActions id="P5Lqctdbmkcf2i5SaMbxnItunxoPPWV7" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="UXLrg9VvVxrnjXYcf03aTHZTNkbf3vN9" name="Ami-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-format interdit-verifier que le format n'est pas interdit: .exe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="2ENG533RBE3ozBp1rwZAArSrzVozJJZJ" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
-      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-    </testActions>
-    <testActions id="lnIAYtEjj3AeUxFHhOI78g8myBUvLTie" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="pMJPZXblSloZlmkRdBBbbGmohrzK5gHk" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
-    <testActions id="QwX3x1uT7imqVd7Wjj3LWKCqLvyJiuUv" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
-      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
-      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
-      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="2wyNRucJB9W14eJkig0Zy6A0AIdzyylF"/>
-      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
-    </testActions>
-    <testActions id="CMUE4PeHhw3Xh3E0A8o0K2RqnPy11sr2" operation="wm3o8WZNCFroA3umLHhtpyRh0yvxDvTp"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="P6xw9iePPd4jgD9o6bA3IV3Jvpg0j0ue" name="Groupe-envoi PJ-fichier trop volumineux-verifier que le format n'est pas interdit: .jar" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="S3dxCKHV7x4TeT8kPgt8lld7rrN9m6lO" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
-      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-    </testActions>
-    <testActions id="mRL1YO1Om6ckQbEm89tlYuusWLitGtam" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="gHyeqbhSdVdKzZBzPNM4Du7pHqjW3jpC" operation="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX">
-      <stepFieldValues referencedStepField="inJnPUvopFxDUKpn39Ouqc82p2nReK2V" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
-      <stepFieldValues referencedStepField="7kfdNFg7FdS55JdaYmW5G1ZBzHZfpgoB" value="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot"/>
-      <stepFieldValues referencedStepField="Z45cgJNvygKed0l0DraSVBXdZ0yIq54x" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
-      <stepFieldValues referencedStepField="3ardK9gWSXiPAeQJc3XvTRseU6TrXcKy" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
-    </testActions>
-    <testActions id="3GZunZe4tgIAyFH9sY7X6wW3yY2Z2mcm" operation="EeOTn5FwMwIy6DuVt8iSgQwJ8jB4c84H"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="RWtwfemcBc5rw5EJBL8XTURinhZHzSS4" name="Nouvelle conversation-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-trop de fichiers-vérifier que la taille est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="CF2EEI2ppg5FZdPEYOP9fUk1eMQeX0iz" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="9xI2pzzHhv11G2STKekEREegCErAKYqv" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
-    <testActions id="LPPC7oHkbMCWkbi35VIWtn2vWy9iBHve" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="82E1ycZ0rO0kNtJzph3IQGHUbqxv872J" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
-    <testActions id="YUmiDfPSiiqUMqeu73y2vhNIEg6Vqj1K" operation="aFeCFBiuvKsoKuPWgn0O7XwjrQDsUsUA">
-      <stepFieldValues referencedStepField="LPTC9Eqgj56Sox0R2qExBVjEzhwdGtPL" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
-      <stepFieldValues referencedStepField="WLXWwpChugAN6RZaECqFAoHkVKcp3PjJ" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
-      <stepFieldValues referencedStepField="ZFpYMwaZORGxlGxNZsJFzEYEO7NrBdWG" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
-      <stepFieldValues referencedStepField="beoXswa9XHrhaleI23YI2kYHea21KRlp" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
-    </testActions>
-    <testActions id="sBqWJsogL82mFSj4ddcUrclo6BXWDGJK" operation="g2pvM4AXpzz8peZZD5BvawAaZDmSIPH4"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="wHBchFF25mywRPzNJcs24u6vlAa9R0OH" name="Groupe-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-voir le titre du fichier-verifier que le nombre de pièe jointe est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="yMxXrfa4YFabXzHgK8yNfNFpHYPtwb1Q" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
-      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-    </testActions>
-    <testActions id="BijhtcrV32UnGC7b9uay1naigQoeEw88" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="RwmrgXQyXWhW6tuFKS2GLB1zKX4OY6I4" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
-    <testActions id="mJyN0fiOJZdRaIOHB7oBfHXAa3g6L9NX" operation="L56S0LyVcK5SXEMje98MKethcnwPVW6S">
-      <stepFieldValues referencedStepField="mr16bEH8mPebyx3NNIkx2sB60Qjk6TiL" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
-      <stepFieldValues referencedStepField="bpO8zRsAMVL5IBh99vt5U9meL2WxD2Ql" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
-      <stepFieldValues referencedStepField="spaWmmWcHl4djD2uZqs0mdw8uHdTyE5i" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
-      <stepFieldValues referencedStepField="CL0WxCrLJZL3CJcoIfyxFuecVIHgzK3p" value="z1pZK8dPOjAHOzY8suebe9gQtvrHg2FG"/>
-    </testActions>
-    <testActions id="axC9OUw1Ef41jxBoujllEfAHDtP0onU3" operation="ZbIxbuAs35m8qhJPu5tDsHJC5lCRBgSZ"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="gUumhLu4SwbXR4WK4YXWLcKhTPRcEqLo" name="Ami-envoi PJ-suppression des fichiers-on peut supprimer les pièces jointes et le corps du message" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="9e62jq6ZecUkeg3XcQdbBqFpfsbesHbQ" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
-      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
-    </testActions>
-    <testActions id="A2M5NXlpO6lqkXd52iLF1x0dgWmB6ncT" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
-    </testActions>
-    <testActions id="pNoVp5yWbDKqUChvuGyXlG4D3NJDTjJE" operation="YZ8JvPR8wVUIDdbeBD5oNMuGe7dnf172">
-      <stepFieldValues referencedStepField="xPvrW9G4qoBpdzcRYdZEBFwTjRZhkYC5" value="oOmfn37qv8txTVex67g3GtlFloAK5osZ"/>
-      <stepFieldValues referencedStepField="5XDyjRyhTtDvWPvsOSPvM5sJ04ZrlNuM" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
-      <stepFieldValues referencedStepField="Ci69nPoQYpAEWPflh45QnDMBJ6rXeOPO" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
-      <stepFieldValues referencedStepField="a2WfuS2WJ6pl6Sbb0qsPexxYsn9yn3kg" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
-    </testActions>
-    <testActions id="LGXsl5Bu7ZuwPW9Zq5Hl61HABkR2nuSR" operation="z4n604k5lczIKK7SzJKLgexZT9hFZnNR"/>
-    <testActions id="3wkslQIx3tRdrWwYH2OCkd2tx4VT8JVe" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
-    </testActions>
-    <testActions id="kV1M8z3enKzRQKYmtmbISVlsA4r0gHkl" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
-    <testActions id="X1eTZ5fr69nAP9pHdFvtYf3EpHVLL0Yz" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="zn5dCkM2aCtrRdt3f2UOQ1UwawMqiiUm" name="Groupe-Message vide-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="M0ufOoiATqFreVJVaTrU7EYeAwiJ0Du7" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
-      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
-    </testActions>
-    <testActions id="QauFZCH78ks2TWfKwtGhQNfdGirbESdB" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
-    <testActions id="fvuZc2m4wl2bHoqz8i8KnAMT0LQ776lK" operation="8vNRAwmleffPuFVorHzLBCwB0HRhFx5S"/>
-    <testActions id="GtGRLB9YUebyEonYj4MZiSzblRFwXzXF" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
-    </testActions>
-    <testActions id="1Z6wMFCLLuNAW0wR1mA40ByDGcAVdrW8" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="kVumn4uXTdmDoX3fViE37Ru9LlXgMsGg" name="Nouvelle conversation" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="FeHV5umP2I8zi8NBIxazh7I5ZThsJn9z" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="YowK1weRImwzP22hCof6rwEKlyt7a8ch" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
-    <testActions id="cZUkQAk24Giu1buUAcAIadkjweQHBqdg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="qQq9ENsMI8Xwz9yZcGyac6kgj3A4IWOR"/>
-    </testActions>
-    <testActions id="lfnMAse3gtUWmDPfUEIczWpKKkIfOoHF" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="JtnRdAcS9myzDAbNjic2iUgDZ2YMWXcF" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
-  </testElements>
   <testElements xsi:type="yest:TestOperation" id="O72d7d4JI4w2ETKrIht1INUXu0cNtASk">
     <highLevelStep>
       <action>
@@ -1979,11 +1822,279 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestOperation" id="UCjtw1SCoauPPRz08FMeFkBjn1ZdqNz7">
-    <highLevelStep>
-      <action/>
-      <expectedResult/>
-    </highLevelStep>
+  <testElements xsi:type="yest:TestScenario" id="ndUo45Vi75BYJLNHXrYuOvPGVEtgeSEM" name="Ami-envoi PJ-vérifier que le message puisse partir sans pièce jointe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="svcLApXIU4Q5XZ2UYociU7B7ds0NGzAM" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="6xgiaOict72IpMBOpiRLREvG69TeXx92" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="sjGucIwwjXMakB9aQRKxl8Ml7NNfHTWM" operation="3jC7it0NDur60QaUJD40rDlGfrmeB4vO"/>
+    <testActions id="226d9FquOWwFZ6OCNToqW1oQJTtek0XK" operation="fZaJcarDVWBEwyX56vISzkfSeX9IzQ4b"/>
+    <testActions id="Xmhno0vCXGvpvS1iCrs3elmcllpbDG4p" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="780pLbo5YjIlo4FSnS4fVlzj7WEQCJwX" name="Nouvelle conversation-envoi PJ-format interdit-vérifier la taille du titer de la pièce jointe-Echec envoi-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="HrD2rnfhDtTjkGnVcK2TulAuuzQ3pEio" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="bbdFMitdGlw2s62evzSDvPLmlvIb6NWu" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="3jER6DEmzopMymgH3JtgtvQ6B5nS4eGp" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="ao0usqd9FldvbEOBNkpFv7ScZEVL8ADA" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="IrvcALw3TXlX5QezSy25k90pzdqmCYrc"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="Qshv6b4OsLDaOUiP4MlzBVrmstMgcu6B" operation="fDRdEvRRDWmMJxQH31qUONvqe7kSiUw4"/>
+    <testActions id="ium4nx9mkNaKpTr7Gq2Da0VMNlajjx3e" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="lbjlMDG2GmlxdmVq5eAEYuud8SSCsPJ0" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="q6YKnpa5KdA08rIpDkmOwQgVpcWoZXk8" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="cdkNCiHxLOdtXF6Fmw59uxPHHKw1m8Li" name="Ami-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-format interdit-verifier que le format n'est pas interdit: .exe" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="lEPGcMKqrqjVrfnr6tEQbzbZJuXfDkas" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="BwGnc2RNCFTqY3CG7kizb2ImiJsrr1Jr" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="zcGDpdbLai0HSKYb4dJOYBiEEWtvlAMe" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="C6pzLSGpeLbpHSwGuqCeG27OL7y8wnUs" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="2wyNRucJB9W14eJkig0Zy6A0AIdzyylF"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="B8OVwsRguQBGpk4LTFE4jMtfufzflu45" operation="wm3o8WZNCFroA3umLHhtpyRh0yvxDvTp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="AHVD8dlTujR0n97tT88K2v71qHcFPqzo" name="Nouvelle conversation-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-fichier trop volumineux-verifier que le format n'est pas interdit: .jar" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="12vMdrl6QcQ9SvNzMfSv9aapJGhzjiAY" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="3zY6koG5x1vkDyiu0que31AC4L7pKc80" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="g7OysEjdpxKIVt7stJCKgHyyq2vCojEe" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="ehApXtdOU8gH5KCkdqIKzxgHJlPi1Pcl" operation="O72d7d4JI4w2ETKrIht1INUXu0cNtASk"/>
+    <testActions id="ZzomyTgXynI2w8Ya0J4DlLuxSyAuN345" operation="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX">
+      <stepFieldValues referencedStepField="inJnPUvopFxDUKpn39Ouqc82p2nReK2V" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="7kfdNFg7FdS55JdaYmW5G1ZBzHZfpgoB" value="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot"/>
+      <stepFieldValues referencedStepField="Z45cgJNvygKed0l0DraSVBXdZ0yIq54x" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="3ardK9gWSXiPAeQJc3XvTRseU6TrXcKy" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="yGsWJyaZj3GQAm4keAkLiTuk39rWPpLB" operation="EeOTn5FwMwIy6DuVt8iSgQwJ8jB4c84H"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="W7v38yICYntUITIYNt5yw0AEStBOvLFq" name="Groupe-envoi PJ-trop de fichiers-vérifier que la taille est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="gLbm5eerFQhBgwdka7It3ABMNFpwIBUj" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="fSupHsTUvJcrWyHTQcNqdmQVIEP45MRD" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="uTQRZ0A5Gpj6DaU7pDVa7lTVKtI2z8zr" operation="aFeCFBiuvKsoKuPWgn0O7XwjrQDsUsUA">
+      <stepFieldValues referencedStepField="LPTC9Eqgj56Sox0R2qExBVjEzhwdGtPL" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
+      <stepFieldValues referencedStepField="WLXWwpChugAN6RZaECqFAoHkVKcp3PjJ" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="ZFpYMwaZORGxlGxNZsJFzEYEO7NrBdWG" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="beoXswa9XHrhaleI23YI2kYHea21KRlp" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="84Nz7MRav8pwPAvwQGHG4YsqcUP2tcfQ" operation="g2pvM4AXpzz8peZZD5BvawAaZDmSIPH4"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="Ts43Pzg0ChbcN6znmtk4iLEZmgx57P3M" name="Groupe-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-voir le titre du fichier-verifier que le nombre de pièe jointe est acceptable" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="XDoeb6ozsS6g7EHmvkwGIKfoh5HwvhZS" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="GbVQy4UChetO65LmzPvMAafdIt1aSo9R" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="pid5s8lhJk9hF0LwgBVSMT7cRbngh2tE" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="3l49Xdz0JjLAFJBfvV2RGMckw9EaYPwt" operation="L56S0LyVcK5SXEMje98MKethcnwPVW6S">
+      <stepFieldValues referencedStepField="mr16bEH8mPebyx3NNIkx2sB60Qjk6TiL" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="bpO8zRsAMVL5IBh99vt5U9meL2WxD2Ql" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="spaWmmWcHl4djD2uZqs0mdw8uHdTyE5i" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="CL0WxCrLJZL3CJcoIfyxFuecVIHgzK3p" value="z1pZK8dPOjAHOzY8suebe9gQtvrHg2FG"/>
+    </testActions>
+    <testActions id="1DfxbH0saE1pgdQnNhOj7r8Q9li7YzW9" operation="ZbIxbuAs35m8qhJPu5tDsHJC5lCRBgSZ"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="ZWH4m015oJ7YZ1FVluImt77f7gWsSys4" name="Ami-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-suppression des fichiers-vérifier que le la taille de la pj ne dépasse pas 2mo" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="7Nk1GTcqzXMU4tIhjRgsZqee9AtNpVMi" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="S9OBNJ7X3MBNka1Bou1NVMlsHiwGssPu" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="16ncFKDbPKBMqTDut5IItYNlJaypCaj5" operation="O72d7d4JI4w2ETKrIht1INUXu0cNtASk"/>
+    <testActions id="gDN0CG3GY1cSBLrXwouzqBG9QLdfYGZo" operation="YZ8JvPR8wVUIDdbeBD5oNMuGe7dnf172">
+      <stepFieldValues referencedStepField="xPvrW9G4qoBpdzcRYdZEBFwTjRZhkYC5" value="oOmfn37qv8txTVex67g3GtlFloAK5osZ"/>
+      <stepFieldValues referencedStepField="5XDyjRyhTtDvWPvsOSPvM5sJ04ZrlNuM" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="Ci69nPoQYpAEWPflh45QnDMBJ6rXeOPO" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="a2WfuS2WJ6pl6Sbb0qsPexxYsn9yn3kg" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="E2OhcyZHmRH4H9QMmIT2gkUFrFJ8oV0C" operation="vJExoeAIRqm4Gk8YuQQAbGSh8qI27gQG"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="Z22HxusYvDJHhBnjed1psBhP2lRCK0ok" name="Nouvelle conversation-envoi PJ-vérifier l'emplacement du bouton ajouter une puèce jointe-on peut supprimer les pièces jointes et le corps du message-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="wRiuxAdSAYEWViqWRADMW8norkkAfp5i" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="fkyH2ngKbxtllgbgFHgy4z8OGoJz6XsY" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="wClyqvpKgXag4QzA2SBWTo4HOVhja8Xi" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="Z1sZS1tgMBPkh1jq4p8XEhxgz6JcHe2M" operation="AOyteO390QtZFga2LfZcaQA6kg3e5bze"/>
+    <testActions id="ICRtbvX42Ddy2BfPNtzUEQ4N6i0GxOpH" operation="uNv94N0O8c7YROFCcWw0MPid6rOTQmkd">
+      <stepFieldValues referencedStepField="35bfaSlh9p0dipSwRMFMv9PjPfhdnQb8" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
+      <stepFieldValues referencedStepField="CAffJhk6yZzqOHHE6St3ego17CmBnJxD" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="lciJRJFOIhmBg7sa83gJbvYVWgrJIW4i" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="KV3lXVdPmSTwhkVZEAur9SBMKrlNu5KF" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="0rVv5U17ZtdhxR8NwjcodYWwgazSckSC" operation="z4n604k5lczIKK7SzJKLgexZT9hFZnNR"/>
+    <testActions id="9L8rL3y4CoJktNJDOF2bpsNiqKKhJVcY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="PeLgK9vrYuGXHhXmYPYNtDbTh7b6kIUP" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="CTeb0DMcEAnYSehkeUzn6iPiIFwAqbZf" name="Groupe-envoi PJ-Vérifier que la pj est toujours présente aprés la redémarage d'outil" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="ULnhRPlSpU0P9dQPsnodYR2UjqLASRf7" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="AQMpDQQzfTxPNdrKduOF1wArTv9RYgEP" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="HcLXyqWreBSyfFOx5prSFqaegRstchVH" operation="y05638aiks5z5ht1J6HW99T2D6DUJxqg">
+      <stepFieldValues referencedStepField="JzunCRa6ZY0zVlrP9QIW5FEdpibIQb8G" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="YIWzKkjO6PzlZrQasMjPqqcZEqYYSeWQ" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="t7RW2hCCpwlAEMbvJsVPMjEF4pof1Cho" value="F4lcMr7yXQxNorwtyC0wbO7QznT4M2LR"/>
+      <stepFieldValues referencedStepField="D6Z3r2InAxhSf6PcbAiLbDOFQAYq48ZZ" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="6gm0cw6bX4xfxcPWv796yl35Pg7IShUR" operation="ZnNb5daTNeG3Ygva8shVfUxHhIPIsOVP"/>
+    <testActions id="JCnk1HtVVWoyAjC02Qv3bWpoVsN0fxGo" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="iPatc2luH1N62edAQQBURVAEcmAT3LrJ" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="ujpOrdjI1wgGPFgJtHGaENp87EyelTOe" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="gQA9wyTgPVfTMGJofOUQRXIoHIjKEZV6" name="Ami-envoi PJ-vérifier si tous les pj sont supprimé aprés la supression d'une Pj-Message vide-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="jmlEk0vdmjMG5JOzsavjqKvl9SzDyoXa" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="Foqdy36B5DQjvF3EozbgpPp3DKStvbnM" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="Jyr1Zudq6z9pRdzumekpTAH2R1BGf8F8" operation="3jC7it0NDur60QaUJD40rDlGfrmeB4vO"/>
+    <testActions id="asTQcEb3AFOgXgDeax1ezlRpT3FNy5uD" operation="Ug5NhUGuOA28O7XB7FdsNpCyJpk97z4b"/>
+    <testActions id="mIRdFUSjaZEI98V9MMDdWv2Jp9xPWfMu" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="SbnmqH3Rg7QNXcaIQUi0zJsRAD01f65Y" operation="8vNRAwmleffPuFVorHzLBCwB0HRhFx5S"/>
+    <testActions id="PuTPSDWvy8BQRHX2hxgANT6ZMLmLLAnS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="7FxT5dUz3CM26lR95TkxfTXFkl2ftYUt" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="omf5TRqE0ORHRvlD7ZW2ykAWe4jH3wom" name="Nouvelle conversation-envoi PJ-format interdit-Vérifier si aprés le clique de button pj , une redirection sera faite au navigateur" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="hkSKnfD2CFOzo1qHb1cU2dVHTxaW9zKk" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="BJKDxm9qD5WKEoDeFEroLHJzbLlslWxm" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="FkUcDlFpSmf56bEkGRUYC0poEaAyPDzk" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="Sx5kjcOEXBmMErWAdFKYazodTPGPMJop" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="IrvcALw3TXlX5QezSy25k90pzdqmCYrc"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="5BqK87hak0PpMoIk9W7lueDSwDVIagV8" operation="vZS7C45e43BVMSP2PRSxx4BbBcVlmoeO"/>
+    <testActions id="UauB4EmNmw5211fHYQrkX1h4pFd91D0M" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="qQq9ENsMI8Xwz9yZcGyac6kgj3A4IWOR"/>
+    </testActions>
+    <testActions id="4yhZ6m0sjQPTKffvqX4QKMPPXEJdIEfH" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="8LJN1Iq6bofsqZUGSwHdFskJFlVZlDHt" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="zvD1lMNUAkMDXKWn9B6JPxNnMj9HFwfz" name="Groupe-envoi PJ-trop de fichiers-vérifier si aprés une attente de 30min aprés l'ajout de la Pj , est toujours existante" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="VCcnhfThM75dt1AtFHblhvdX7bD0rR3P" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="WJ6vGkMwNdTdkuNYc5tw58EWRFrvh0Fh" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="WBIAYNZHLrGYQM1lTvhjVXxfTm9fyb30" operation="aFeCFBiuvKsoKuPWgn0O7XwjrQDsUsUA">
+      <stepFieldValues referencedStepField="LPTC9Eqgj56Sox0R2qExBVjEzhwdGtPL" value="9zIfbtX2oUxp5ASyH8yPCNArnR6v4SIh"/>
+      <stepFieldValues referencedStepField="WLXWwpChugAN6RZaECqFAoHkVKcp3PjJ" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="ZFpYMwaZORGxlGxNZsJFzEYEO7NrBdWG" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="beoXswa9XHrhaleI23YI2kYHea21KRlp" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="H8LLoDdm3a5ZOaB4WZ0HRcgFON6WuU3Y" operation="LyMWIznYaZUxM8kwNRVVYzr8uBOmQokI"/>
+    <testActions id="51Ye8S6tPtSXxymdYfCrtlyCnrpIy2UU" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="nu2UUMU7jIPmnvpd5uflIgPiyAThBzoR" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="cqqvmFcO4ZmR98q3it67K0GLxO2L4L1r" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="0KsRsyGiijuhe4dgg8EIlVV43h3YvDnS" name="Ami-envoi PJ-format interdit-vérifier si le renommage de la pj n'est pas possible-Message vide-Message non envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="oUpquoxms2OAcWOoD80WVKlzr0k4xUye" operation="Y2UrxsB1LFiozEf5eEgfnHsDZeFiWeNr">
+      <stepFieldValues referencedStepField="yzWc7tUx4JHqK8OsIkq7DCs6VUWq6HAR" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+      <stepFieldValues referencedStepField="ZdNFQtp3mzVji7V2QuB6MIDOKKyy9zKk" value="jD6YJobNdtn8MYLngUmyjFquPEPc5P4j"/>
+    </testActions>
+    <testActions id="vv92gC80LC0pfOkci2XHWEP2oWSHcoUp" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="605GPfWenpOmd3oOq9dQsCtYDSTC6YAG" operation="b3408We26h1uPB9f1dL93ivVilfqZiaY">
+      <stepFieldValues referencedStepField="xh8OAmLiXgAwGLp14sEDDD39maTHRv68" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="vvaJbziiIM46qikno944PRbDM8hVl95t" value="Iob5ZCsXQ7cQdXKlpcbe42Egdj4NG97X"/>
+      <stepFieldValues referencedStepField="K5PQ7UWrqR00OXUHJjwzOaudIJKz48jT" value="2wyNRucJB9W14eJkig0Zy6A0AIdzyylF"/>
+      <stepFieldValues referencedStepField="UVG56Oz3qyCOoFVoLTm1msH8ZUgr3992" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="lgEiUVMgJTwluc8LJlcbPhvTrtMEJdcP" operation="7cv9Bq0ZJP0G1Vk1421glE2JekeSjUHI"/>
+    <testActions id="XOcfiNS8hFIIIQJnyK1narCFSGO2fRw9" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="7ow8el0LhfWXAGcceeHB0EbAoYmJY8Q1" operation="8vNRAwmleffPuFVorHzLBCwB0HRhFx5S"/>
+    <testActions id="CGUeL2iVyFujK8J9Awl7vcYUfTtcYrTo" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="PnA9fijPQtNtR3JM2n2xaWyNHzvAfEJP" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="Kc9jxa7ytRvkREDgY4t3iyaBmGOi5Lav" name="Nouvelle conversation-envoi PJ-fichier trop volumineux-vérifier que la taille d'affichage est acceptable-Echec envoi" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="YY2ycJvxiO0C4stXoAy4NnUmDChY0YrF" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="ejdZCGSoNlExNGh8KKy7Z9G35323IQs0" operation="sd7XYhXHBKvzHFvWYyWinXO10JmCrCdv"/>
+    <testActions id="dfdRP4wfWQ0J3Ad684uKRDkKImFEYaBR" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="Di9bjaizHWc4KyVCIdOB6FDPZbR63zfM" operation="KR0dGIknjRoCUqzjwmxLvScTGavZzJNX">
+      <stepFieldValues referencedStepField="inJnPUvopFxDUKpn39Ouqc82p2nReK2V" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="7kfdNFg7FdS55JdaYmW5G1ZBzHZfpgoB" value="dqVX4zWPsxuzKcWqDf9IzhKV5DDTSxot"/>
+      <stepFieldValues referencedStepField="Z45cgJNvygKed0l0DraSVBXdZ0yIq54x" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="3ardK9gWSXiPAeQJc3XvTRseU6TrXcKy" value="p7W0t3UdtjhhTKHIZ6lXcskfqjPGnFcI"/>
+    </testActions>
+    <testActions id="xVlN5cKI3lDtOvruOE14Qoob2bEylNDt" operation="JERv3Jehiid5COcoDQvFhWH0cZW8TJkO"/>
+    <testActions id="ejqiI8NbJOA7XmEp9LwAo2YLPeHv520S" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="KNGdzwoRKKwcVcHLE6PKGvED3xIfU0cA" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="qQq9ENsMI8Xwz9yZcGyac6kgj3A4IWOR"/>
+    </testActions>
+    <testActions id="HyCMjJ8INsr3akgPw3mt0XuhuU0tL22Y" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="bnk5snotkBHTyn39vRNTK7xRQZkdWb31" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="uNjqqJSrvF3mwDqCLtIRDUQKCiLyPTA6" name="Groupe-envoi PJ-voir le titre du fichier-verifier que le format n'est pas autorisé: mp4-Echec envoi" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="qHQMqlm9XLsiwTtGQeW9tw3fVuP7bEs5" operation="qC7J5aV1XMAg3fat7PYkk23sp0JN9EOu">
+      <stepFieldValues referencedStepField="YWPZdN8TPp7m6QJjdoIfyhuJCGdmdM1Y" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+      <stepFieldValues referencedStepField="l9EtqW9FeaPkdccZk2QArIm8NENIuLNP" value="4TZcnGUZnZA3BDjttA7pKAbvQtEI08NR"/>
+    </testActions>
+    <testActions id="3DiM27TOcDeTOO2O4kDFfvcJ6a0D6Sl5" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="bky0BRFMEnZ6fGB7vvF0EHDSGMyIpD7W"/>
+    </testActions>
+    <testActions id="zPMLxIswYnGCqeHKkbrmp71PQuQyb1wi" operation="L56S0LyVcK5SXEMje98MKethcnwPVW6S">
+      <stepFieldValues referencedStepField="mr16bEH8mPebyx3NNIkx2sB60Qjk6TiL" value="7WaNU9CZNbCuF1rFZhIC5uInSmN6E6Qi"/>
+      <stepFieldValues referencedStepField="bpO8zRsAMVL5IBh99vt5U9meL2WxD2Ql" value="keNj6tCLhVvdVGsOnUC1KufE3b52H56L"/>
+      <stepFieldValues referencedStepField="spaWmmWcHl4djD2uZqs0mdw8uHdTyE5i" value="hhorSub70ccRNvpvCE6pmYinl3mFGbDj"/>
+      <stepFieldValues referencedStepField="CL0WxCrLJZL3CJcoIfyxFuecVIHgzK3p" value="z1pZK8dPOjAHOzY8suebe9gQtvrHg2FG"/>
+    </testActions>
+    <testActions id="8fq4zbfWWlj60snisgZiPFYCdVrF92ZI" operation="vQlaEpwV91uCW49VO31HBAzZT37DaQmU"/>
+    <testActions id="Ns3WvUSfnybYfKy7X9AqtQ8EYzvhuTD8" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="Xfm8BWrRrAFaCcEB9aj14bjI250v70QQ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="q0NoPJXYeY6YgPFFrqANbVMgkhB3iq2C" value="CSzpVWSdmuoLvufFe8t8FllfNSvLjpmi"/>
+    </testActions>
+    <testActions id="QdplcIqVkXHSGCGj0L9tNcJamCR1DLvL" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="O4fmJ4cziYLv1iUJupFxJYxbyElSkqbA" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
   </testElements>
   <designDataDictionary id="1omGsRuzkZQucTkxV6LQpZkCp71n5HKf" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="PJ" id="99eb551a21e550a69098da63d6869151">
